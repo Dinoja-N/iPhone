@@ -1,0 +1,26 @@
+
+
+
+pandas
+- Bring the csv data file in the python file\
+
+data = pandas.read_csv('iphone_price.csv')
+  ^					^
+  |					|
+Variable Name		     csv file name
+
+
+import matplotlib.pyplot as plt
+		^
+		|
+	  To draw 
+
+plt.scatter(data['version'],data['price'])
+plt.show()
+
+_________________________________________________________________________
+
+pip install scikit-learn
+- To prediction
+
+
